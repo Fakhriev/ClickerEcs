@@ -1,0 +1,11 @@
+public struct IncomeValueChangeTag { }
+public struct IncomeValueRecalculateTag { }
+public struct UpdateLevelUpCostTag { }
+public struct UpdateUpgradesCostTag { }
+public struct TryLevelUpTag { }
+public struct TryUpgrade1Tag { }
+public struct TryUpgrade2Tag { }
+public struct AddUpgrade1Tag { }
+public struct AddUpgrade2Tag { }
+public struct DisabledBusinessTag { }
+public struct SaveTag { }

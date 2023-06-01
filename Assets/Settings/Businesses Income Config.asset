@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49fdccfcb942d8438c2ed04268ad367, type: 3}
+  m_Name: Businesses Income Config
+  m_EditorClassIdentifier: 
+  BusinessesIncomeParametres:
+  - incomeDelay: 3
+    baseCost: 3
+    baseIncome: 3
+    upgrade1:
+      cost: 50
+      incomeMultiplyier: 50
+    upgrade2:
+      cost: 400
+      incomeMultiplyier: 100
+  - incomeDelay: 6
+    baseCost: 40
+    baseIncome: 40
+    upgrade1:
+      cost: 1200
+      incomeMultiplyier: 100
+    upgrade2:
+      cost: 4000
+      incomeMultiplyier: 200
+  - incomeDelay: 10
+    baseCost: 200
+    baseIncome: 200
+    upgrade1:
+      cost: 6000
+      incomeMultiplyier: 100
+    upgrade2:
+      cost: 20000
+      incomeMultiplyier: 150
+  - incomeDelay: 17
+    baseCost: 1000
+    baseIncome: 1000
+    upgrade1:
+      cost: 15000
+      incomeMultiplyier: 100
+    upgrade2:
+      cost: 50000
+      incomeMultiplyier: 200
+  - incomeDelay: 30
+    baseCost: 5000
+    baseIncome: 5000
+    upgrade1:
+      cost: 100000
+      incomeMultiplyier: 200
+    upgrade2:
+      cost: 500000
+      incomeMultiplyier: 400
